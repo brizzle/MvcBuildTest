@@ -9,6 +9,7 @@ namespace MvcBuildTest.Models
     {
         public string Name { get; set; }
         public string Breed { get; set; }
+        public string TagNumber { get; set; }
 
         public void Bark()
         {
